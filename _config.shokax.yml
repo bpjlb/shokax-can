@@ -42,7 +42,7 @@ homeConfig:
 modules:
   debug: false # 启用调试模式
   player: false # 启用音乐播放器
-  fireworks: true # 启用鼠标点击烟花特效
+  fireworks: false # 启用鼠标点击烟花特效
   visibilityListener: true # 启用可见度监听器，当你不需要页面标题随标签页切换而变化可关闭
   tabs: true # 启用选项卡扩展支持，如需开启 summary 功能请一并开启
   quiz: true # 启用文章内问题扩展支持
@@ -235,7 +235,7 @@ pagefind: # pagefind 本地搜索 https://pagefind.app/
 # Value before `||` delimiter is the target permalink,
 # secend value is the name of Font icon.
 social:
-  github: https://github.com/yourname || github || "#191717"
+  github: https://github.com/bpjlb || github || "#191717"
   #gitee: https://gitee.com/yourname || gitee || "#e60026"
   #google: https://plus.google.com/yourname || google
   #twitter: https://twitter.com/yourname || twitter || "#00aff0"
@@ -292,7 +292,7 @@ outime:
 
 reward:
   # If true, reward will be displayed in every article by default.
-  enable: true
+  enable: false
   account:
     wechatpay: /wechatpay.png
     alipay: /alipay.png
